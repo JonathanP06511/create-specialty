@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  create-specialty:
+   build: ../create-specialty
+   ports:
+     - 4004
+
+  
